@@ -1,0 +1,265 @@
+body {
+    font-family: Calibri;
+}
+/*first part*/
+.header1 h1 {
+    margin: 15px;
+}
+.header1 h1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+.baseheader {
+    background-color: #333333;
+    display: flex;
+    max-height: 85px;
+}
+.header1 {
+    display: block;
+    color: #FFF;
+    font-weight: normal;
+    padding-left: 60px;
+    box-sizing: border-box;
+    flex: 1.3;
+}
+.header2 {
+    flex: 1;
+    color: #fff;
+    box-sizing: border-box;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+
+}
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    padding-top: 23px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+/*end first part*/
+
+/*second part*/
+.second {
+    display: flex;
+}
+.secondleft {
+    flex: 1.5;
+}
+.secondright {
+    flex: 1;
+}
+.secondright input {
+    float: right;
+}
+.searchblock {
+    padding-top: 15px;
+    padding-right: 80px;
+}
+.secondleft ul {
+    padding-top: 8px;
+}
+.secondleft li {
+    display: block;
+    list-style: none;
+    color: #333333;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 25px;
+    
+}
+.secondleft li a {
+    text-decoration: none;
+    color: #333333;
+}
+.secondleft ul li:first-child { padding-left: 22px;}
+
+/*end second part*/
+
+/*third part*/
+.third {
+    height: 300px;
+    background-color: #cccccc;
+    color: #333333;
+}
+.thirdleft {
+    padding-left: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.thirdleft img {
+    height: 230px;
+    width: 230px;
+}
+.third {
+    display: flex;
+}
+.thirdleft {
+    flex:0.8;
+}
+.thirdright {
+    flex: 2;
+    display: flex;
+}
+.thirdr1 {
+    flex: 1;
+    font-size: xx-large;
+    padding-top: 15px;
+}
+.thirdr2 {
+    flex: 1;
+    padding-top: 24px;
+}
+/*end third part*/
+
+/*fourth part*/
+.bigger {
+    font-size: 200%;
+}
+
+.fourth1 {
+    display: block;
+    padding-left: 60px;
+    color: #333333;
+}
+.fourth2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 70px;
+    box-sizing: border-box;
+}
+.fourth22 {
+    width: 120px;
+    height: 120px;
+    background-color: #c2bbbbd5;
+    color: #FFF;
+}
+.fourth22 a {
+    text-decoration: none;
+    color: #FFF;
+}
+.fourth23 p {
+    font-size: small;
+    font-weight: 400;
+    color: #333333;
+}
+.fourth22:hover {
+    opacity: 0.5;
+} 
+
+/*end fourth part*/
+
+/*fifth part*/
+.fifth2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 70px;
+    box-sizing: border-box;
+}
+.fifth22 {
+    width:160px;
+    height: 180px;
+    border: 5px solid #dbf3fa;
+    background-color: #dbf3fa;
+    display: flex;
+    flex-direction:column;
+}
+.fifth222 {
+    flex: 7;
+}
+.fifth223 {
+    text-align: center;
+    display: block;
+    flex: 1;
+    color: #333333;
+}
+.fifth222 a {
+    text-decoration: none;
+    color: #FFF;
+}
+.fifth3 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 70px;
+    box-sizing: border-box;
+}
+.fifth22:hover {
+    background-color:#223c92cc;
+}
+
+/*end fith part*/
+/*sixth part*/
+
+.sixth p a {
+    text-decoration: none;
+    color: #333333;
+}
+.sixth {
+    margin-left: 70px;
+}
+.sixth p {
+    font-size: small;
+    font-weight: 400;
+}
+/*end sixth part*/
+
+/*seventh part*/
+
+.seventh {
+    background-color: #131a22;
+}
+.seventh1 {
+    display: flex;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.767);
+}
+.seventh11 h3 {
+    font-weight: 400;
+}
+.seventh1 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.767);
+}
+.seventh11 {
+    flex: 1;
+}
+footer {
+    padding-left: 70px;
+    color: rgb(94, 8, 8);
+}
+
+
+
+
+
+
